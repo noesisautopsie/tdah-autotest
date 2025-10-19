@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-10-19",
+    "totalQuestions": 30,
+    "maxScore": 90,
+    "clinicalReferences": [
+      "DSM-5 Criteria for ADHD",
+      "ASRS v1.1 (Adult ADHD Self-Report Scale)",
+      "Conners Adult ADHD Rating Scale",
+      "DIVA 2.0 (Diagnostic Interview for ADHD in Adults)"
+    ]
+  },
+  "scoringGuide": [
+    { "label": "Jamais / Rarement", "value": 0 },
+    { "label": "Parfois", "value": 1 },
+    { "label": "Souvent", "value": 2 },
+    { "label": "Très souvent / Toujours", "value": 3 }
+  ],
+  "sections": [
+    {
+      "id": "section1",
+      "title": "SECTION 1 — ATTENTION, CONCENTRATION, DISTRACTIBILITÉ",
+      "subtitle": "Référence : ASRS v1.1 & DSM-5 (Inattention)",
+      "questions": [
+        "J'ai du mal à maintenir mon attention sur des tâches longues ou répétitives.",
+        "Je perds régulièrement des objets nécessaires (clés, téléphone, papiers).",
+        "Je suis facilement distrait·e par des stimuli extérieurs (bruits, mouvements, pensées).",
+        "J'ai tendance à "décrocher" mentalement pendant les conversations ou réunions.",
+        "Je commence plusieurs choses en même temps sans en terminer aucune.",
+        "Je lis plusieurs fois la même phrase sans en retenir le sens."
+      ]
+    },
+    {
+      "id": "section2",
+      "title": "SECTION 2 — IMPULSIVITÉ, RÉGULATION ÉMOTIONNELLE, HYPERACTIVITÉ MENTALE",
+      "subtitle": "Référence : ASRS (Hyperactivité/Impulsivité) & DIVA (Régulation Affective)",
+      "questions": [
+        "Je parle ou agis avant de réfléchir aux conséquences.",
+        "Je ressens des émotions intenses qui changent rapidement.",
+        "J'ai une agitation interne constante, même si je ne bouge pas physiquement.",
+        "Je trouve difficile de rester assis·e longtemps (besoin de bouger, taper du pied, tripoter).",
+        "J'interromps souvent les autres ou je finis leurs phrases.",
+        "Je m'ennuie très vite, sauf si la tâche est vraiment stimulante."
+      ]
+    },
+    {
+      "id": "section3",
+      "title": "SECTION 3 — MOTIVATION, RÉCOMPENSE, GESTION DU TEMPS",
+      "subtitle": "Référence : Delay Aversion & Dopaminergic Regulation",
+      "questions": [
+        "J'ai besoin d'une certaine urgence ou pression pour agir.",
+        "Je procrastine sur les tâches sans stimulation immédiate.",
+        "Je suis plus performant·e sous stress que dans la routine.",
+        "Je ressens un "effondrement" d'énergie après un effort intense.",
+        "Je cherche souvent à me relancer par des stimulations rapides (réseaux, café, bruit, musique).",
+        "Je passe d'une phase d'hyperfocus total à une incapacité à commencer quoi que ce soit."
+      ]
+    },
+    {
+      "id": "section4",
+      "title": "SECTION 4 — RELATIONS, COMMUNICATION, ADAPTATION SOCIALE",
+      "subtitle": "Référence : Conners Adult ADHD Scale & DIVA Impact",
+      "questions": [
+        "Je coupe la parole sans le vouloir.",
+        "J'oublie parfois des engagements ou promesses sans mauvaise intention.",
+        "Je ressens souvent le besoin de "faire bonne figure" pour masquer mon désordre intérieur.",
+        "Je me sens parfois "différent·e" dans la façon de penser ou de percevoir.",
+        "Je me sens souvent coupable d'avoir "encore oublié" quelque chose.",
+        "Les situations sociales m'épuisent plus que je ne le montre."
+      ]
+    },
+    {
+      "id": "section5",
+      "title": "SECTION 5 — IMPACT GLOBAL ET HISTOIRE DE VIE",
+      "subtitle": "Référence : DSM-5 – critères d'impact fonctionnel",
+      "questions": [
+        "Mes difficultés d'attention ou d'organisation me freinent au travail ou dans mes études.",
+        "Je me sens "désordonné·e à l'intérieur" même quand tout semble aller.",
+        "Ces difficultés existent depuis toujours, même si j'ai appris à les cacher.",
+        "Mon entourage m'a souvent décrit comme "rêveur·se", "dans la lune", "instable", ou "désorganisé·e"."
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "range": [0, 25],
+      "level": "minimal",
+      "color": "green",
+      "title": "0–25 pts : Fonction exécutive globalement intacte.",
+      "description": "Difficultés ponctuelles liées à stress, charge ou fatigue. Aucun indice TDAH significatif."
+    },
+    {
+      "range": [26, 45],
+      "level": "léger",
+      "color": "yellow",
+      "title": "26–45 pts : Légère variabilité attentionnelle.",
+      "description": "Dysrégulation possible dans des contextes exigeants. <span class='font-semibold'>Recommandation :</span> auto-observation sur 30 jours. Si gêne durable → avis pro."
+    },
+    {
+      "range": [46, 65],
+      "level": "modéré",
+      "color": "orange",
+      "title": "46–65 pts : Profil compatible avec un TDAH.",
+      "description": "Difficultés persistantes depuis l'enfance. <span class='font-semibold'>Action :</span> Évaluation clinique complète conseillée (psychiatre, psychologue spécialisé TDAH)."
+    },
+    {
+      "range": [66, 90],
+      "level": "élevé",
+      "color": "red",
+      "title": "66–90 pts : Profil hautement évocateur d'un TDAH adulte.",
+      "description": "Impact probable sur au moins deux sphères. <span class='font-semibold'>Action :</span> Bilan neuropsychologique et prise en charge recommandés."
+    }
+  ],
+  "differentialDiagnosis": [
+    {
+      "symptom": "Inattention, oubli",
+      "alternatives": "Trouble anxieux, stress chronique, burn-out"
+    },
+    {
+      "symptom": "Impulsivité, réactivité émotionnelle",
+      "alternatives": "Trouble borderline, trauma complexe, bipolaire II"
+    },
+    {
+      "symptom": "Procrastination, perte d'intérêt",
+      "alternatives": "Dépression, perfectionnisme défensif"
+    },
+    {
+      "symptom": "Agitation motrice",
+      "alternatives": "Anxiété, hyperactivité de stress"
+    },
+    {
+      "symptom": "Hyperfocus",
+      "alternatives": "Passion, flow, créativité intense"
+    }
+  ]
+}
