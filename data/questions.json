@@ -92,21 +92,21 @@
     },
     {
       "range": [26, 45],
-      "level": "léger",
+      "level": "leger",
       "color": "yellow",
       "title": "26–45 pts : Légère variabilité attentionnelle.",
       "description": "Dysrégulation possible dans des contextes exigeants. <span class='font-semibold'>Recommandation :</span> auto-observation sur 30 jours. Si gêne durable → avis pro."
     },
     {
       "range": [46, 65],
-      "level": "modéré",
+      "level": "modere",
       "color": "orange",
       "title": "46–65 pts : Profil compatible avec un TDAH.",
       "description": "Difficultés persistantes depuis l'enfance. <span class='font-semibold'>Action :</span> Évaluation clinique complète conseillée (psychiatre, psychologue spécialisé TDAH)."
     },
     {
       "range": [66, 90],
-      "level": "élevé",
+      "level": "eleve",
       "color": "red",
       "title": "66–90 pts : Profil hautement évocateur d'un TDAH adulte.",
       "description": "Impact probable sur au moins deux sphères. <span class='font-semibold'>Action :</span> Bilan neuropsychologique et prise en charge recommandés."

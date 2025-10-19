@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-production-brightgreen.svg)]()
 
-## 📋 Description
+## Description
 
 Auto-questionnaire exploratoire interactif pour adultes souhaitant évaluer la présence potentielle de symptômes compatibles avec un Trouble Déficitaire de l'Attention avec ou sans Hyperactivité (TDAH).
 
@@ -12,21 +12,21 @@ Cet outil est conçu selon les critères diagnostiques du **DSM-5** et s'inspire
 
 ### ⚠️ **Ce que cet outil N'EST PAS**
 
-- ❌ **Ce n'est PAS un diagnostic médical**
-- ❌ **Ce n'est PAS un substitut à une évaluation clinique**
-- ❌ **Ce n'est PAS un test neuropsychologique validé**
-- ❌ **Ce n'est PAS destiné à l'auto-diagnostic**
+- **Ce n'est PAS un diagnostic médical**
+- **Ce n'est PAS un substitut à une évaluation clinique**
+- **Ce n'est PAS un test neuropsychologique validé**
+- **Ce n'est PAS destiné à l'auto-diagnostic**
 
-### ✅ **Ce que cet outil EST**
+###  **Ce que cet outil EST**
 
-- ✅ Un **outil de sensibilisation** pour identifier des difficultés attentionnelles et exécutives
-- ✅ Un **point de départ** pour une discussion avec un professionnel de santé
-- ✅ Une **aide à l'auto-observation** structurée selon des critères scientifiques
-- ✅ Un **support pédagogique** pour comprendre les dimensions du TDAH adulte
+- Un **outil de sensibilisation** pour identifier des difficultés attentionnelles et exécutives
+- Un **point de départ** pour une discussion avec un professionnel de santé
+- Une **aide à l'auto-observation** structurée selon des critères scientifiques
+- Un **support pédagogique** pour comprendre les dimensions du TDAH adulte
 
 ---
 
-## 🎯 Caractéristiques
+## Caractéristiques
 
 - **30 questions** réparties en 5 sections cliniques
 - **Scoring automatique** avec interprétation graduée (0-90 points)
@@ -38,13 +38,13 @@ Cet outil est conçu selon les critères diagnostiques du **DSM-5** et s'inspire
 
 ---
 
-## 🚀 Installation et Utilisation
+##  Installation et Utilisation
 
 ### Option 1 : Utilisation Locale (Recommandée)
 
 1. **Télécharger le projet** :
    ```bash
-   git clone https://github.com/votre-username/tdah-autotest.git
+   git clone https://github.com/noesisautopsie/tdah-autotest.git
    cd tdah-autotest
    ```
 
